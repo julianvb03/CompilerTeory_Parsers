@@ -1,24 +1,24 @@
-# Nombre del Proyecto: Parser LL(1) y LR(0)
+# Project Name: LL(1) and LR(0) Parser
 
-## Descripción
-Este proyecto implementa parsers LL(1) y LR(0) para analizar gramáticas y cadenas proporcionadas por el usuario. Permite procesar cadenas, verificar si una gramática es LL(1), y realizar análisis sintáctico tanto ascendente como descendente. La implementación está diseñada para ser extendible y fácil de utilizar en aplicaciones educativas o de investigación en el campo de la teoría de lenguajes de programación.
+## Description
+This project implements LL(1) and LR(0) parsers to analyze grammars and strings provided by the user. It allows processing strings, verifying whether a grammar is LL(1), and performing both bottom-up and top-down syntactic analysis. The implementation is designed to be extendable and easy to use in educational or research applications in the field of programming language theory.
 
-## Características
-- Análisis de cadenas mediante parsers LL(1) y LR(0).
-- Verificación de gramáticas LL(1).
-- Generación de conjuntos First y Follow para gramáticas.
-- Análisis sintáctico ascendente y descendente.
+## Features
+- String analysis using LL(1) and LR(0) parsers.
+- LL(1) grammar verification.
+- Generation of First and Follow sets for grammars.
+- Bottom-up and top-down syntactic analysis.
 
-## Instalación
-El proyecto no requiere instalación de dependencias externas más allá de Python estándar. Para ejecutarlo, clona el repositorio en tu máquina local:
+## Installation
+The project does not require the installation of external dependencies beyond standard Python. To run it, clone the repository to your local machine:
 
-Sigue las instrucciones en consola para seleccionar entre análisis LL(1) y LR(0), ingresar cadenas para análisis, y más. Hay gramaticas de ejemplo en la carpeta tests, de la cual podras sacar el formato para usar las tuyas propias. 
+Follow the console instructions to select between LL(1) and LR(0) analysis, enter strings for analysis, and more. There are example grammars in the tests folder, from which you can take the format to use your own.
 
-### Ejemplo de uso:
-1. Ejecuta el script: `python main.py`
-2. Selecciona el tipo de gramática ingresando `1` para LL(1) o `2` para LR(0).
-3. Elige la operación deseada (procesar cadena, mostrar First y Follow, verificar si la gramática es LL(1), etc.).
-4. Si eliges procesar una cadena, ingrésala cuando se te solicite.
+### Example of use:
+1. Run the script: `python main.py`
+2. Select the type of grammar by entering `1` for LL(1) or `2` for LR(0).
+3. Choose the desired operation (process string, show First and Follow, verify if the grammar is LL(1), etc.).
+4. If you choose to process a string, enter it when prompted.
 
-## Contribuir
-Este proyecto es de código abierto, y las contribuciones son bienvenidas. Si deseas contribuir con mejoras, corrige un problema o agregas funcionalidades, por favor realiza un fork del repositorio y envía un pull request con tus cambios.
+## Contributing
+This project is open source, and contributions are welcome. If you want to contribute improvements, fix a problem, or add functionalities, please fork the repository and send a pull request with your changes.
